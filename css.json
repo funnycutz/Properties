@@ -1,0 +1,1132 @@
+[
+  {
+    "name": "align-content",
+    "description": "Aligne les lignes d'un conteneur flex ou grid lorsque l'espace en croix est disponible.",
+    "example": "align-content: center;"
+  },
+  {
+    "name": "align-items",
+    "description": "Aligne les éléments flex ou grid sur l'axe croisé.",
+    "example": "align-items: flex-start;"
+  },
+  {
+    "name": "align-self",
+    "description": "Permet de surcharger l'alignement d'un seul élément dans un conteneur flex ou grid.",
+    "example": "align-self: center;"
+  },
+  {
+    "name": "all",
+    "description": "Réinitialise toutes les propriétés (sauf unicode-bidi et direction) à leur valeur initiale ou héritée.",
+    "example": "all: unset;"
+  },
+  {
+    "name": "animation",
+    "description": "Abrège toutes les propriétés d'animation (nom, durée, timing, délai, itérations, direction, fill-mode, play-state).",
+    "example": "animation: slidein 3s ease-in-out;"
+  },
+  {
+    "name": "animation-delay",
+    "description": "Spécifie le délai avant le démarrage de l'animation.",
+    "example": "animation-delay: 1s;"
+  },
+  {
+    "name": "animation-direction",
+    "description": "Définit si l'animation doit jouer en sens inverse sur les cycles alternés.",
+    "example": "animation-direction: alternate;"
+  },
+  {
+    "name": "animation-duration",
+    "description": "Définit la durée totale d'une animation.",
+    "example": "animation-duration: 2s;"
+  },
+  {
+    "name": "animation-fill-mode",
+    "description": "Définit comment appliquer les styles de l'animation avant et après son exécution.",
+    "example": "animation-fill-mode: forwards;"
+  },
+  {
+    "name": "animation-iteration-count",
+    "description": "Indique le nombre de fois que l'animation doit se répéter.",
+    "example": "animation-iteration-count: infinite;"
+  },
+  {
+    "name": "animation-name",
+    "description": "Spécifie le nom des keyframes à utiliser pour l'animation.",
+    "example": "animation-name: fadeIn;"
+  },
+  {
+    "name": "animation-play-state",
+    "description": "Indique si l'animation est en cours d'exécution ou en pause.",
+    "example": "animation-play-state: running;"
+  },
+  {
+    "name": "animation-timing-function",
+    "description": "Définit la courbe de vitesse de l'animation.",
+    "example": "animation-timing-function: ease-in-out;"
+  },
+  {
+    "name": "backface-visibility",
+    "description": "Détermine si la face arrière d'un élément est visible lorsqu'il est tourné.",
+    "example": "backface-visibility: hidden;"
+  },
+  {
+    "name": "background",
+    "description": "Abrège plusieurs propriétés d'arrière-plan (couleur, image, position, taille, répétition, attachement).",
+    "example": "background: #fff url('image.jpg') no-repeat center;"
+  },
+  {
+    "name": "background-attachment",
+    "description": "Définit si l'image de fond défile avec la page ou est fixe.",
+    "example": "background-attachment: fixed;"
+  },
+  {
+    "name": "background-blend-mode",
+    "description": "Spécifie le mode de fusion entre les images d'arrière-plan ou entre l'image et la couleur de fond.",
+    "example": "background-blend-mode: multiply;"
+  },
+  {
+    "name": "background-clip",
+    "description": "Définit jusqu'où s'étend l'arrière-plan à l'intérieur d'un élément.",
+    "example": "background-clip: border-box;"
+  },
+  {
+    "name": "background-color",
+    "description": "Définit la couleur de fond d'un élément.",
+    "example": "background-color: #ff0000;"
+  },
+  {
+    "name": "background-image",
+    "description": "Définit une image de fond pour un élément.",
+    "example": "background-image: url('background.jpg');"
+  },
+  {
+    "name": "background-origin",
+    "description": "Définit l'origine du positionnement des images de fond.",
+    "example": "background-origin: padding-box;"
+  },
+  {
+    "name": "background-position",
+    "description": "Définit la position de départ de l'image de fond.",
+    "example": "background-position: center;"
+  },
+  {
+    "name": "background-repeat",
+    "description": "Définit la répétition de l'image de fond.",
+    "example": "background-repeat: no-repeat;"
+  },
+  {
+    "name": "background-size",
+    "description": "Définit la taille de l'image de fond.",
+    "example": "background-size: cover;"
+  },
+  {
+    "name": "border",
+    "description": "Abrège les propriétés de largeur, style et couleur de la bordure.",
+    "example": "border: 1px solid #000;"
+  },
+  {
+    "name": "border-bottom",
+    "description": "Définit la bordure inférieure d'un élément.",
+    "example": "border-bottom: 2px solid red;"
+  },
+  {
+    "name": "border-bottom-color",
+    "description": "Définit la couleur de la bordure inférieure.",
+    "example": "border-bottom-color: blue;"
+  },
+  {
+    "name": "border-bottom-left-radius",
+    "description": "Arrondit le coin inférieur gauche de la bordure.",
+    "example": "border-bottom-left-radius: 10px;"
+  },
+  {
+    "name": "border-bottom-right-radius",
+    "description": "Arrondit le coin inférieur droit de la bordure.",
+    "example": "border-bottom-right-radius: 10px;"
+  },
+  {
+    "name": "border-collapse",
+    "description": "Spécifie si les bordures des cellules d'un tableau doivent être fusionnées.",
+    "example": "border-collapse: collapse;"
+  },
+  {
+    "name": "border-color",
+    "description": "Définit la couleur de toutes les bordures.",
+    "example": "border-color: #ccc;"
+  },
+  {
+    "name": "border-image",
+    "description": "Abrège toutes les propriétés d'image de bordure.",
+    "example": "border-image: url(border.png) 30 stretch;"
+  },
+  {
+    "name": "border-image-outset",
+    "description": "Définit l'étendue de l'image de bordure au-delà de la boîte de bordure.",
+    "example": "border-image-outset: 5;"
+  },
+  {
+    "name": "border-image-repeat",
+    "description": "Définit la répétition de l'image de bordure.",
+    "example": "border-image-repeat: round;"
+  },
+  {
+    "name": "border-image-slice",
+    "description": "Découpe l'image de bordure en régions.",
+    "example": "border-image-slice: 30;"
+  },
+  {
+    "name": "border-image-source",
+    "description": "Spécifie l'image utilisée pour la bordure.",
+    "example": "border-image-source: url(border.png);"
+  },
+  {
+    "name": "border-image-width",
+    "description": "Définit la largeur de l'image de bordure.",
+    "example": "border-image-width: 10px;"
+  },
+  {
+    "name": "border-left",
+    "description": "Définit la bordure gauche d'un élément.",
+    "example": "border-left: 3px solid green;"
+  },
+  {
+    "name": "border-left-color",
+    "description": "Définit la couleur de la bordure gauche.",
+    "example": "border-left-color: yellow;"
+  },
+  {
+    "name": "border-left-style",
+    "description": "Définit le style de la bordure gauche.",
+    "example": "border-left-style: dotted;"
+  },
+  {
+    "name": "border-left-width",
+    "description": "Définit la largeur de la bordure gauche.",
+    "example": "border-left-width: 5px;"
+  },
+  {
+    "name": "border-radius",
+    "description": "Arrondit les angles de la bordure de l'élément.",
+    "example": "border-radius: 10px;"
+  },
+  {
+    "name": "border-right",
+    "description": "Définit la bordure droite d'un élément.",
+    "example": "border-right: 3px solid #ff0000;"
+  },
+  {
+    "name": "border-right-color",
+    "description": "Définit la couleur de la bordure droite.",
+    "example": "border-right-color: black;"
+  },
+  {
+    "name": "border-right-style",
+    "description": "Définit le style de la bordure droite.",
+    "example": "border-right-style: dashed;"
+  },
+  {
+    "name": "border-right-width",
+    "description": "Définit la largeur de la bordure droite.",
+    "example": "border-right-width: 4px;"
+  },
+  {
+    "name": "border-spacing",
+    "description": "Définit l'espacement entre les bordures de cellules d'un tableau.",
+    "example": "border-spacing: 5px;"
+  },
+  {
+    "name": "border-style",
+    "description": "Définit le style de la bordure (solide, pointillé, etc.).",
+    "example": "border-style: solid;"
+  },
+  {
+    "name": "border-top",
+    "description": "Définit la bordure supérieure d'un élément.",
+    "example": "border-top: 1px solid blue;"
+  },
+  {
+    "name": "border-top-color",
+    "description": "Définit la couleur de la bordure supérieure.",
+    "example": "border-top-color: #ff00ff;"
+  },
+  {
+    "name": "border-top-left-radius",
+    "description": "Arrondit le coin supérieur gauche de la bordure.",
+    "example": "border-top-left-radius: 15px;"
+  },
+  {
+    "name": "border-top-right-radius",
+    "description": "Arrondit le coin supérieur droit de la bordure.",
+    "example": "border-top-right-radius: 15px;"
+  },
+  {
+    "name": "border-top-style",
+    "description": "Définit le style de la bordure supérieure.",
+    "example": "border-top-style: solid;"
+  },
+  {
+    "name": "border-top-width",
+    "description": "Définit la largeur de la bordure supérieure.",
+    "example": "border-top-width: 2px;"
+  },
+  {
+    "name": "border-width",
+    "description": "Définit la largeur de toutes les bordures.",
+    "example": "border-width: 2px;"
+  },
+  {
+    "name": "bottom",
+    "description": "Spécifie la position inférieure d'un élément positionné.",
+    "example": "bottom: 0;"
+  },
+  {
+    "name": "box-decoration-break",
+    "description": "Définit comment l'arrière-plan et la bordure se comportent lorsqu'un élément est divisé en plusieurs lignes.",
+    "example": "box-decoration-break: clone;"
+  },
+  {
+    "name": "box-shadow",
+    "description": "Ajoute une ou plusieurs ombres à un élément.",
+    "example": "box-shadow: 2px 2px 5px rgba(0,0,0,0.5);"
+  },
+  {
+    "name": "box-sizing",
+    "description": "Définit la méthode de calcul de la largeur et de la hauteur totales d'un élément.",
+    "example": "box-sizing: border-box;"
+  },
+  {
+    "name": "break-after",
+    "description": "Indique si un saut de page, de colonne ou de région doit se produire après un élément.",
+    "example": "break-after: always;"
+  },
+  {
+    "name": "break-before",
+    "description": "Indique si un saut de page, de colonne ou de région doit se produire avant un élément.",
+    "example": "break-before: always;"
+  },
+  {
+    "name": "break-inside",
+    "description": "Contrôle les sauts de page, de colonne ou de région à l'intérieur d'un élément.",
+    "example": "break-inside: avoid;"
+  },
+  {
+    "name": "caption-side",
+    "description": "Définit l'emplacement de la légende d'un tableau.",
+    "example": "caption-side: top;"
+  },
+  {
+    "name": "caret-color",
+    "description": "Définit la couleur du curseur d'insertion (caret).",
+    "example": "caret-color: auto;"
+  },
+  {
+    "name": "clear",
+    "description": "Spécifie comment un élément doit se comporter par rapport aux éléments flottants précédents.",
+    "example": "clear: both;"
+  },
+  {
+    "name": "clip",
+    "description": "Définit la partie visible d'un élément (déconseillé, utilisez clip-path).",
+    "example": "clip: rect(0, 50px, 50px, 0);"
+  },
+  {
+    "name": "clip-path",
+    "description": "Définit une région de découpe pour afficher uniquement une partie d'un élément.",
+    "example": "clip-path: circle(50%);"
+  },
+  {
+    "name": "color",
+    "description": "Définit la couleur du texte.",
+    "example": "color: #333;"
+  },
+  {
+    "name": "column-count",
+    "description": "Définit le nombre de colonnes dans une mise en page multi-colonnes.",
+    "example": "column-count: 3;"
+  },
+  {
+    "name": "column-fill",
+    "description": "Spécifie comment remplir les colonnes (équilibré ou automatique).",
+    "example": "column-fill: balance;"
+  },
+  {
+    "name": "column-gap",
+    "description": "Définit l'espacement entre les colonnes.",
+    "example": "column-gap: 20px;"
+  },
+  {
+    "name": "column-rule",
+    "description": "Abrège les propriétés de largeur, style et couleur de la séparation entre colonnes.",
+    "example": "column-rule: 1px solid #000;"
+  },
+  {
+    "name": "column-rule-color",
+    "description": "Définit la couleur de la séparation entre colonnes.",
+    "example": "column-rule-color: #ccc;"
+  },
+  {
+    "name": "column-rule-style",
+    "description": "Définit le style de la séparation entre colonnes.",
+    "example": "column-rule-style: dashed;"
+  },
+  {
+    "name": "column-rule-width",
+    "description": "Définit la largeur de la séparation entre colonnes.",
+    "example": "column-rule-width: 2px;"
+  },
+  {
+    "name": "column-span",
+    "description": "Définit si un élément doit s'étendre sur toutes les colonnes.",
+    "example": "column-span: all;"
+  },
+  {
+    "name": "column-width",
+    "description": "Définit la largeur idéale des colonnes.",
+    "example": "column-width: 200px;"
+  },
+  {
+    "name": "columns",
+    "description": "Abrège column-width et column-count.",
+    "example": "columns: 200px 3;"
+  },
+  {
+    "name": "content",
+    "description": "Utilisé avec ::before et ::after pour générer du contenu.",
+    "example": "content: 'Hello';"
+  },
+  {
+    "name": "counter-increment",
+    "description": "Incrémente un ou plusieurs compteurs CSS.",
+    "example": "counter-increment: section 1;"
+  },
+  {
+    "name": "counter-reset",
+    "description": "Réinitialise un ou plusieurs compteurs CSS.",
+    "example": "counter-reset: section;"
+  },
+  {
+    "name": "cursor",
+    "description": "Définit le type de curseur affiché lorsque la souris survole un élément.",
+    "example": "cursor: pointer;"
+  },
+  {
+    "name": "direction",
+    "description": "Définit la direction du texte (ltr ou rtl).",
+    "example": "direction: ltr;"
+  },
+  {
+    "name": "display",
+    "description": "Définit le comportement d'affichage d'un élément.",
+    "example": "display: flex;"
+  },
+  {
+    "name": "empty-cells",
+    "description": "Définit si les cellules vides d'un tableau affichent des bordures ou non.",
+    "example": "empty-cells: hide;"
+  },
+  {
+    "name": "filter",
+    "description": "Applique des effets visuels (flou, luminosité, etc.) à un élément.",
+    "example": "filter: blur(5px);"
+  },
+  {
+    "name": "flex",
+    "description": "Abrège flex-grow, flex-shrink et flex-basis.",
+    "example": "flex: 1;"
+  },
+  {
+    "name": "flex-basis",
+    "description": "Définit la taille initiale d'un élément flex avant répartition de l'espace.",
+    "example": "flex-basis: 200px;"
+  },
+  {
+    "name": "flex-direction",
+    "description": "Définit la direction dans laquelle les éléments flex sont disposés.",
+    "example": "flex-direction: row;"
+  },
+  {
+    "name": "flex-flow",
+    "description": "Abrège flex-direction et flex-wrap.",
+    "example": "flex-flow: row wrap;"
+  },
+  {
+    "name": "flex-grow",
+    "description": "Définit la proportion de croissance d'un élément flex par rapport aux autres.",
+    "example": "flex-grow: 2;"
+  },
+  {
+    "name": "flex-shrink",
+    "description": "Définit la proportion de rétrécissement d'un élément flex par rapport aux autres.",
+    "example": "flex-shrink: 1;"
+  },
+  {
+    "name": "flex-wrap",
+    "description": "Définit si les éléments flex doivent passer sur plusieurs lignes.",
+    "example": "flex-wrap: wrap;"
+  },
+  {
+    "name": "float",
+    "description": "Permet de faire flotter un élément à gauche ou à droite.",
+    "example": "float: left;"
+  },
+  {
+    "name": "font",
+    "description": "Abrège plusieurs propriétés typographiques (style, variant, weight, size, line-height, family).",
+    "example": "font: italic small-caps bold 16px/2 'Helvetica Neue', sans-serif;"
+  },
+  {
+    "name": "font-family",
+    "description": "Définit la famille de polices à utiliser pour le texte.",
+    "example": "font-family: 'Arial', sans-serif;"
+  },
+  {
+    "name": "font-feature-settings",
+    "description": "Active ou désactive des fonctionnalités typographiques avancées d'une police OpenType.",
+    "example": "font-feature-settings: 'kern';"
+  },
+  {
+    "name": "font-kerning",
+    "description": "Contrôle l'utilisation des informations de crénage de la police.",
+    "example": "font-kerning: normal;"
+  },
+  {
+    "name": "font-size",
+    "description": "Définit la taille de la police.",
+    "example": "font-size: 16px;"
+  },
+  {
+    "name": "font-size-adjust",
+    "description": "Ajuste la taille de la police pour conserver la lisibilité lors d'un changement de fonte.",
+    "example": "font-size-adjust: 0.5;"
+  },
+  {
+    "name": "font-stretch",
+    "description": "Sélectionne une version condensée ou étendue d'une police.",
+    "example": "font-stretch: condensed;"
+  },
+  {
+    "name": "font-style",
+    "description": "Définit le style de la police (normal, italic, oblique).",
+    "example": "font-style: italic;"
+  },
+  {
+    "name": "font-synthesis",
+    "description": "Contrôle la synthèse des propriétés manquantes (poids, style) par le navigateur.",
+    "example": "font-synthesis: weight style;"
+  },
+  {
+    "name": "font-variant",
+    "description": "Définit l'utilisation de variantes typographiques, comme les petites capitales.",
+    "example": "font-variant: small-caps;"
+  },
+  {
+    "name": "font-variant-alternates",
+    "description": "Contrôle l'utilisation de glyphes alternatifs disponibles dans les polices OpenType.",
+    "example": "font-variant-alternates: stylistic;"
+  },
+  {
+    "name": "font-variant-caps",
+    "description": "Définit les variations dans les caractéristiques de capitalisation d'une police.",
+    "example": "font-variant-caps: small-caps;"
+  },
+  {
+    "name": "font-variant-east-asian",
+    "description": "Contrôle l'utilisation de glyphes alternatifs pour les textes en langues est-asiatiques.",
+    "example": "font-variant-east-asian: full-width;"
+  },
+  {
+    "name": "font-variant-ligatures",
+    "description": "Contrôle l'utilisation de ligatures et de formes contextuelles.",
+    "example": "font-variant-ligatures: common-ligatures;"
+  },
+  {
+    "name": "font-variant-numeric",
+    "description": "Définit l'utilisation de formes numériques alternatives.",
+    "example": "font-variant-numeric: oldstyle-nums;"
+  },
+  {
+    "name": "font-variant-position",
+    "description": "Contrôle la position des chiffres par rapport à la ligne de base.",
+    "example": "font-variant-position: sub;"
+  },
+  {
+    "name": "font-weight",
+    "description": "Définit l'épaisseur (graisse) de la police.",
+    "example": "font-weight: 700;"
+  },
+  {
+    "name": "gap",
+    "description": "Définit l'espacement entre les lignes et colonnes dans les grilles ou flexbox.",
+    "example": "gap: 10px;"
+  },
+  {
+    "name": "grid",
+    "description": "Abrège plusieurs propriétés de grille (template, auto-rows/columns, flow).",
+    "example": "grid: 'a a' 'b b';"
+  },
+  {
+    "name": "grid-area",
+    "description": "Définit la zone d'un élément dans une grille nommée.",
+    "example": "grid-area: header;"
+  },
+  {
+    "name": "grid-auto-columns",
+    "description": "Définit la taille des colonnes créées automatiquement dans une grille.",
+    "example": "grid-auto-columns: 100px;"
+  },
+  {
+    "name": "grid-auto-flow",
+    "description": "Contrôle l'algorithme de placement automatique des éléments dans la grille.",
+    "example": "grid-auto-flow: row;"
+  },
+  {
+    "name": "grid-auto-rows",
+    "description": "Définit la taille des lignes créées automatiquement dans une grille.",
+    "example": "grid-auto-rows: 50px;"
+  },
+  {
+    "name": "grid-column",
+    "description": "Définit la position de début et de fin d'un élément sur la grille en colonnes.",
+    "example": "grid-column: 1 / 3;"
+  },
+  {
+    "name": "grid-column-end",
+    "description": "Spécifie la fin d'un élément sur la grille en colonnes.",
+    "example": "grid-column-end: span 2;"
+  },
+  {
+    "name": "grid-column-gap",
+    "description": "Définit l'espacement entre les colonnes d'une grille.",
+    "example": "grid-column-gap: 10px;"
+  },
+  {
+    "name": "grid-column-start",
+    "description": "Spécifie le début d'un élément sur la grille en colonnes.",
+    "example": "grid-column-start: 2;"
+  },
+  {
+    "name": "grid-gap",
+    "description": "Abrège grid-row-gap et grid-column-gap.",
+    "example": "grid-gap: 10px;"
+  },
+  {
+    "name": "grid-row",
+    "description": "Définit la position de début et de fin d'un élément sur la grille en lignes.",
+    "example": "grid-row: 1 / 2;"
+  },
+  {
+    "name": "grid-row-end",
+    "description": "Spécifie la fin d'un élément sur la grille en lignes.",
+    "example": "grid-row-end: span 2;"
+  },
+  {
+    "name": "grid-row-gap",
+    "description": "Définit l'espacement entre les lignes d'une grille.",
+    "example": "grid-row-gap: 10px;"
+  },
+  {
+    "name": "grid-row-start",
+    "description": "Spécifie le début d'un élément sur la grille en lignes.",
+    "example": "grid-row-start: 1;"
+  },
+  {
+    "name": "grid-template",
+    "description": "Abrège grid-template-rows, grid-template-columns et grid-template-areas.",
+    "example": "grid-template: 'header header' 'main sidebar';"
+  },
+  {
+    "name": "grid-template-areas",
+    "description": "Définit des zones nommées dans une grille pouvant être utilisées par grid-area.",
+    "example": "grid-template-areas: 'header header' 'sidebar main';"
+  },
+  {
+    "name": "grid-template-columns",
+    "description": "Définit la structure des colonnes d'une grille.",
+    "example": "grid-template-columns: 1fr 2fr;"
+  },
+  {
+    "name": "grid-template-rows",
+    "description": "Définit la structure des lignes d'une grille.",
+    "example": "grid-template-rows: auto 1fr auto;"
+  },
+  {
+    "name": "hanging-punctuation",
+    "description": "Contrôle le placement de la ponctuation dans le texte.",
+    "example": "hanging-punctuation: first;"
+  },
+  {
+    "name": "height",
+    "description": "Définit la hauteur d'un élément.",
+    "example": "height: 100px;"
+  },
+  {
+    "name": "hyphens",
+    "description": "Contrôle la césure automatique des mots.",
+    "example": "hyphens: auto;"
+  },
+  {
+    "name": "image-rendering",
+    "description": "Donne une indication au navigateur sur la manière de redimensionner les images.",
+    "example": "image-rendering: crisp-edges;"
+  },
+  {
+    "name": "isolation",
+    "description": "Définit si un élément crée un nouveau contexte d'empilement.",
+    "example": "isolation: isolate;"
+  },
+  {
+    "name": "justify-content",
+    "description": "Aligne les éléments flex ou grid sur l'axe principal.",
+    "example": "justify-content: center;"
+  },
+  {
+    "name": "left",
+    "description": "Définit la position gauche d'un élément positionné.",
+    "example": "left: 0;"
+  },
+  {
+    "name": "letter-spacing",
+    "description": "Augmente ou réduit l'espacement entre les caractères.",
+    "example": "letter-spacing: 1px;"
+  },
+  {
+    "name": "line-break",
+    "description": "Contrôle la manière de couper les lignes de texte.",
+    "example": "line-break: auto;"
+  },
+  {
+    "name": "line-height",
+    "description": "Définit la hauteur d'une ligne de texte.",
+    "example": "line-height: 1.5;"
+  },
+  {
+    "name": "list-style",
+    "description": "Abrège les propriétés list-style-type, list-style-position et list-style-image.",
+    "example": "list-style: disc inside;"
+  },
+  {
+    "name": "list-style-image",
+    "description": "Définit une image comme puce de liste.",
+    "example": "list-style-image: url('marker.png');"
+  },
+  {
+    "name": "list-style-position",
+    "description": "Définit la position de la puce dans une liste.",
+    "example": "list-style-position: inside;"
+  },
+  {
+    "name": "list-style-type",
+    "description": "Définit le type de puce utilisé dans une liste.",
+    "example": "list-style-type: square;"
+  },
+  {
+    "name": "margin",
+    "description": "Définit la marge extérieure d'un élément.",
+    "example": "margin: 20px;"
+  },
+  {
+    "name": "margin-bottom",
+    "description": "Définit la marge inférieure d'un élément.",
+    "example": "margin-bottom: 10px;"
+  },
+  {
+    "name": "margin-left",
+    "description": "Définit la marge gauche d'un élément.",
+    "example": "margin-left: 10px;"
+  },
+  {
+    "name": "margin-right",
+    "description": "Définit la marge droite d'un élément.",
+    "example": "margin-right: 10px;"
+  },
+  {
+    "name": "margin-top",
+    "description": "Définit la marge supérieure d'un élément.",
+    "example": "margin-top: 10px;"
+  },
+  {
+    "name": "mask",
+    "description": "Applique un masque graphique à un élément.",
+    "example": "mask: url(mask.png);"
+  },
+  {
+    "name": "mask-type",
+    "description": "Définit le type de masque à utiliser.",
+    "example": "mask-type: luminance;"
+  },
+  {
+    "name": "max-height",
+    "description": "Définit la hauteur maximale d'un élément.",
+    "example": "max-height: 500px;"
+  },
+  {
+    "name": "max-width",
+    "description": "Définit la largeur maximale d'un élément.",
+    "example": "max-width: 800px;"
+  },
+  {
+    "name": "min-height",
+    "description": "Définit la hauteur minimale d'un élément.",
+    "example": "min-height: 200px;"
+  },
+  {
+    "name": "min-width",
+    "description": "Définit la largeur minimale d'un élément.",
+    "example": "min-width: 300px;"
+  },
+  {
+    "name": "mix-blend-mode",
+    "description": "Définit le mode de fusion entre un élément et son arrière-plan.",
+    "example": "mix-blend-mode: multiply;"
+  },
+  {
+    "name": "object-fit",
+    "description": "Définit comment le contenu d'un élément remplacé (par exemple une image) s'ajuste dans sa boîte.",
+    "example": "object-fit: cover;"
+  },
+  {
+    "name": "object-position",
+    "description": "Définit l'alignement du contenu d'un élément remplacé dans sa boîte.",
+    "example": "object-position: center;"
+  },
+  {
+    "name": "opacity",
+    "description": "Définit la transparence d'un élément.",
+    "example": "opacity: 0.8;"
+  },
+  {
+    "name": "order",
+    "description": "Définit l'ordre d'affichage d'un élément dans un conteneur flex.",
+    "example": "order: 2;"
+  },
+  {
+    "name": "orphans",
+    "description": "Spécifie le nombre minimum de lignes qui doivent rester en bas d'une page lors d'un saut de page.",
+    "example": "orphans: 2;"
+  },
+  {
+    "name": "outline",
+    "description": "Abrège les propriétés de largeur, style et couleur du contour d'un élément.",
+    "example": "outline: 2px solid blue;"
+  },
+  {
+    "name": "outline-color",
+    "description": "Définit la couleur du contour.",
+    "example": "outline-color: red;"
+  },
+  {
+    "name": "outline-offset",
+    "description": "Définit l'espace entre le contour et la bordure de l'élément.",
+    "example": "outline-offset: 3px;"
+  },
+  {
+    "name": "outline-style",
+    "description": "Définit le style du contour.",
+    "example": "outline-style: dashed;"
+  },
+  {
+    "name": "outline-width",
+    "description": "Définit la largeur du contour.",
+    "example": "outline-width: 1px;"
+  },
+  {
+    "name": "overflow",
+    "description": "Définit le comportement de débordement du contenu d'un élément.",
+    "example": "overflow: auto;"
+  },
+  {
+    "name": "overflow-wrap",
+    "description": "Spécifie si le navigateur doit couper les mots trop longs pour éviter un débordement.",
+    "example": "overflow-wrap: break-word;"
+  },
+  {
+    "name": "overflow-x",
+    "description": "Définit le comportement de débordement horizontal.",
+    "example": "overflow-x: scroll;"
+  },
+  {
+    "name": "overflow-y",
+    "description": "Définit le comportement de débordement vertical.",
+    "example": "overflow-y: hidden;"
+  },
+  {
+    "name": "padding",
+    "description": "Définit l'espacement intérieur d'un élément.",
+    "example": "padding: 10px;"
+  },
+  {
+    "name": "padding-bottom",
+    "description": "Définit l'espacement intérieur inférieur d'un élément.",
+    "example": "padding-bottom: 5px;"
+  },
+  {
+    "name": "padding-left",
+    "description": "Définit l'espacement intérieur gauche d'un élément.",
+    "example": "padding-left: 5px;"
+  },
+  {
+    "name": "padding-right",
+    "description": "Définit l'espacement intérieur droit d'un élément.",
+    "example": "padding-right: 5px;"
+  },
+  {
+    "name": "padding-top",
+    "description": "Définit l'espacement intérieur supérieur d'un élément.",
+    "example": "padding-top: 5px;"
+  },
+  {
+    "name": "page-break-after",
+    "description": "Spécifie si un saut de page doit se produire après un élément lors de l'impression.",
+    "example": "page-break-after: always;"
+  },
+  {
+    "name": "page-break-before",
+    "description": "Spécifie si un saut de page doit se produire avant un élément lors de l'impression.",
+    "example": "page-break-before: always;"
+  },
+  {
+    "name": "page-break-inside",
+    "description": "Empêche un saut de page à l'intérieur d'un élément lors de l'impression.",
+    "example": "page-break-inside: avoid;"
+  },
+  {
+    "name": "perspective",
+    "description": "Définit la profondeur de perspective pour les éléments 3D enfants.",
+    "example": "perspective: 500px;"
+  },
+  {
+    "name": "perspective-origin",
+    "description": "Définit l'origine de la perspective.",
+    "example": "perspective-origin: center;"
+  },
+  {
+    "name": "place-content",
+    "description": "Abrège align-content et justify-content pour les grilles.",
+    "example": "place-content: center;"
+  },
+  {
+    "name": "place-items",
+    "description": "Abrège align-items et justify-items pour les grilles.",
+    "example": "place-items: center;"
+  },
+  {
+    "name": "place-self",
+    "description": "Abrège align-self et justify-self pour un élément de grille.",
+    "example": "place-self: start;"
+  },
+  {
+    "name": "pointer-events",
+    "description": "Définit sous quelles conditions un élément peut être la cible d'événements pointeur.",
+    "example": "pointer-events: none;"
+  },
+  {
+    "name": "position",
+    "description": "Définit la méthode de positionnement d'un élément (static, relative, absolute, fixed, sticky).",
+    "example": "position: absolute;"
+  },
+  {
+    "name": "quotes",
+    "description": "Définit les guillemets à utiliser pour les citations dans le contenu généré.",
+    "example": "quotes: '«' '»';"
+  },
+  {
+    "name": "resize",
+    "description": "Contrôle si un élément est redimensionnable par l'utilisateur.",
+    "example": "resize: both;"
+  },
+  {
+    "name": "right",
+    "description": "Définit la position droite d'un élément positionné.",
+    "example": "right: 0;"
+  },
+  {
+    "name": "row-gap",
+    "description": "Définit l'espacement entre les lignes d'une grille ou d'un flex container.",
+    "example": "row-gap: 10px;"
+  },
+  {
+    "name": "scroll-behavior",
+    "description": "Définit le comportement du défilement (doux ou instantané).",
+    "example": "scroll-behavior: smooth;"
+  },
+  {
+    "name": "tab-size",
+    "description": "Définit la largeur d'un caractère de tabulation.",
+    "example": "tab-size: 4;"
+  },
+  {
+    "name": "table-layout",
+    "description": "Définit l'algorithme de disposition des cellules d'un tableau.",
+    "example": "table-layout: fixed;"
+  },
+  {
+    "name": "text-align",
+    "description": "Définit l'alignement horizontal du texte dans un élément.",
+    "example": "text-align: center;"
+  },
+  {
+    "name": "text-align-last",
+    "description": "Définit l'alignement de la dernière ligne d'un bloc de texte.",
+    "example": "text-align-last: right;"
+  },
+  {
+    "name": "text-combine-upright",
+    "description": "Combine des caractères verticaux en un seul glyphe lorsque le texte est écrit verticalement.",
+    "example": "text-combine-upright: all;"
+  },
+  {
+    "name": "text-decoration",
+    "description": "Abrège text-decoration-line, text-decoration-style et text-decoration-color.",
+    "example": "text-decoration: underline;"
+  },
+  {
+    "name": "text-decoration-color",
+    "description": "Définit la couleur de la décoration de texte.",
+    "example": "text-decoration-color: red;"
+  },
+  {
+    "name": "text-decoration-line",
+    "description": "Définit la ou les lignes de décoration (underline, overline, line-through).",
+    "example": "text-decoration-line: line-through;"
+  },
+  {
+    "name": "text-decoration-style",
+    "description": "Définit le style de la décoration de texte (solid, double, dotted, dashed, wavy).",
+    "example": "text-decoration-style: wavy;"
+  },
+  {
+    "name": "text-indent",
+    "description": "Définit le retrait de la première ligne d'un bloc de texte.",
+    "example": "text-indent: 2em;"
+  },
+  {
+    "name": "text-justify",
+    "description": "Définit la méthode de justification du texte lorsque text-align est justify.",
+    "example": "text-justify: inter-word;"
+  },
+  {
+    "name": "text-orientation",
+    "description": "Définit l'orientation du texte dans un contexte d'écriture verticale.",
+    "example": "text-orientation: upright;"
+  },
+  {
+    "name": "text-overflow",
+    "description": "Définit comment indiquer le contenu débordant d'un bloc (par exemple avec des points de suspension).",
+    "example": "text-overflow: ellipsis;"
+  },
+  {
+    "name": "text-shadow",
+    "description": "Applique une ou plusieurs ombres au texte.",
+    "example": "text-shadow: 1px 1px 2px black;"
+  },
+  {
+    "name": "text-transform",
+    "description": "Contrôle la capitalisation du texte (majuscule, minuscule, capitalisation).",
+    "example": "text-transform: uppercase;"
+  },
+  {
+    "name": "top",
+    "description": "Définit la position supérieure d'un élément positionné.",
+    "example": "top: 0;"
+  },
+  {
+    "name": "transform",
+    "description": "Applique une transformation 2D ou 3D à un élément.",
+    "example": "transform: rotate(45deg);"
+  },
+  {
+    "name": "transform-origin",
+    "description": "Spécifie l'origine autour de laquelle une transformation est appliquée.",
+    "example": "transform-origin: center;"
+  },
+  {
+    "name": "transform-style",
+    "description": "Définit comment les éléments enfants d'un élément transformé sont rendus dans l'espace 3D.",
+    "example": "transform-style: preserve-3d;"
+  },
+  {
+    "name": "transition",
+    "description": "Abrège transition-property, transition-duration, transition-timing-function et transition-delay.",
+    "example": "transition: all 0.3s ease;"
+  },
+  {
+    "name": "transition-delay",
+    "description": "Définit le délai avant le début de la transition.",
+    "example": "transition-delay: 0.5s;"
+  },
+  {
+    "name": "transition-duration",
+    "description": "Définit la durée de la transition.",
+    "example": "transition-duration: 0.3s;"
+  },
+  {
+    "name": "transition-property",
+    "description": "Définit la ou les propriétés auxquelles la transition s'applique.",
+    "example": "transition-property: opacity, transform;"
+  },
+  {
+    "name": "transition-timing-function",
+    "description": "Définit la courbe de vitesse de la transition.",
+    "example": "transition-timing-function: ease-in-out;"
+  },
+  {
+    "name": "unicode-bidi",
+    "description": "Définit la façon dont le texte bidirectionnel est géré.",
+    "example": "unicode-bidi: embed;"
+  },
+  {
+    "name": "user-select",
+    "description": "Contrôle la sélection du texte par l'utilisateur.",
+    "example": "user-select: none;"
+  },
+  {
+    "name": "vertical-align",
+    "description": "Définit l'alignement vertical d'un élément en ligne ou d'une cellule de tableau.",
+    "example": "vertical-align: middle;"
+  },
+  {
+    "name": "visibility",
+    "description": "Contrôle la visibilité d'un élément sans modifier sa place dans la mise en page.",
+    "example": "visibility: visible;"
+  },
+  {
+    "name": "white-space",
+    "description": "Contrôle la gestion des espaces blancs dans le contenu.",
+    "example": "white-space: nowrap;"
+  },
+  {
+    "name": "widows",
+    "description": "Spécifie le nombre minimum de lignes qu'une boîte de texte doit laisser en bas lors d'un saut de page.",
+    "example": "widows: 2;"
+  },
+  {
+    "name": "width",
+    "description": "Définit la largeur d'un élément.",
+    "example": "width: 100%;"
+  },
+  {
+    "name": "word-break",
+    "description": "Contrôle la façon dont les mots se cassent en fin de ligne.",
+    "example": "word-break: break-all;"
+  },
+  {
+    "name": "word-spacing",
+    "description": "Définit l'espacement entre les mots.",
+    "example": "word-spacing: 4px;"
+  },
+  {
+    "name": "word-wrap",
+    "description": "Spécifie si les mots trop longs doivent être coupés et passer à la ligne.",
+    "example": "word-wrap: break-word;"
+  },
+  {
+    "name": "writing-mode",
+    "description": "Définit l'orientation de l'écriture (horizontal ou vertical).",
+    "example": "writing-mode: horizontal-tb;"
+  },
+  {
+    "name": "z-index",
+    "description": "Définit l'ordre d'empilement des éléments positionnés.",
+    "example": "z-index: 10;"
+  }
+]
