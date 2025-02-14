@@ -1,0 +1,172 @@
+[
+  {
+    "name": "console.log",
+    "description": "Affiche un message dans la console du navigateur.",
+    "example": "console.log('Hello, world!');"
+  },
+  {
+    "name": "document.getElementById",
+    "description": "Sélectionne un élément HTML par son ID.",
+    "example": "const element = document.getElementById('myElement');"
+  },
+  {
+    "name": "document.querySelector",
+    "description": "Sélectionne le premier élément correspondant à un sélecteur CSS.",
+    "example": "const element = document.querySelector('.myClass');"
+  },
+  {
+    "name": "document.querySelectorAll",
+    "description": "Sélectionne tous les éléments correspondant à un sélecteur CSS.",
+    "example": "const elements = document.querySelectorAll('p');"
+  },
+  {
+    "name": "addEventListener",
+    "description": "Ajoute un écouteur d'événement à un élément.",
+    "example": "document.addEventListener('click', () => console.log('Clicked!'));"
+  },
+  {
+    "name": "setTimeout",
+    "description": "Exécute une fonction après un certain délai.",
+    "example": "setTimeout(() => console.log('Hello after 3 seconds'), 3000);"
+  },
+  {
+    "name": "setInterval",
+    "description": "Exécute une fonction à intervalles réguliers.",
+    "example": "setInterval(() => console.log('Interval!'), 2000);"
+  },
+  {
+    "name": "clearTimeout",
+    "description": "Annule un timeout défini avec setTimeout.",
+    "example": "const timeout = setTimeout(() => {}, 5000); clearTimeout(timeout);"
+  },
+  {
+    "name": "clearInterval",
+    "description": "Annule un intervalle défini avec setInterval.",
+    "example": "const interval = setInterval(() => {}, 1000); clearInterval(interval);"
+  },
+  {
+    "name": "Math.random",
+    "description": "Retourne un nombre aléatoire entre 0 et 1.",
+    "example": "const randomNum = Math.random();"
+  },
+  {
+    "name": "Math.floor",
+    "description": "Arrondit un nombre à l'entier inférieur.",
+    "example": "const floored = Math.floor(4.9); // 4"
+  },
+  {
+    "name": "Math.ceil",
+    "description": "Arrondit un nombre à l'entier supérieur.",
+    "example": "const ceiled = Math.ceil(4.1); // 5"
+  },
+  {
+    "name": "Math.round",
+    "description": "Arrondit un nombre à l'entier le plus proche.",
+    "example": "const rounded = Math.round(4.5); // 5"
+  },
+  {
+    "name": "Array.push",
+    "description": "Ajoute un élément à la fin d'un tableau.",
+    "example": "const arr = [1, 2, 3]; arr.push(4);"
+  },
+  {
+    "name": "Array.pop",
+    "description": "Supprime et retourne le dernier élément d'un tableau.",
+    "example": "const arr = [1, 2, 3]; const last = arr.pop();"
+  },
+  {
+    "name": "Array.shift",
+    "description": "Supprime et retourne le premier élément d'un tableau.",
+    "example": "const arr = [1, 2, 3]; const first = arr.shift();"
+  },
+  {
+    "name": "Array.unshift",
+    "description": "Ajoute un élément au début d'un tableau.",
+    "example": "const arr = [2, 3]; arr.unshift(1);"
+  },
+  {
+    "name": "Array.map",
+    "description": "Crée un nouveau tableau en appliquant une fonction à chaque élément.",
+    "example": "const numbers = [1, 2, 3]; const doubled = numbers.map(n => n * 2);"
+  },
+  {
+    "name": "Array.filter",
+    "description": "Crée un nouveau tableau avec les éléments qui passent un test.",
+    "example": "const numbers = [1, 2, 3, 4]; const evens = numbers.filter(n => n % 2 === 0);"
+  },
+  {
+    "name": "Array.reduce",
+    "description": "Applique une fonction pour réduire un tableau à une seule valeur.",
+    "example": "const numbers = [1, 2, 3]; const sum = numbers.reduce((acc, curr) => acc + curr, 0);"
+  },
+  {
+    "name": "Array.forEach",
+    "description": "Exécute une fonction pour chaque élément du tableau.",
+    "example": "const numbers = [1, 2, 3]; numbers.forEach(n => console.log(n));"
+  },
+  {
+    "name": "Array.includes",
+    "description": "Vérifie si un élément est présent dans un tableau.",
+    "example": "const numbers = [1, 2, 3]; const hasTwo = numbers.includes(2);"
+  },
+  {
+    "name": "String.toUpperCase",
+    "description": "Convertit une chaîne en majuscules.",
+    "example": "const text = 'hello'; const upper = text.toUpperCase();"
+  },
+  {
+    "name": "String.toLowerCase",
+    "description": "Convertit une chaîne en minuscules.",
+    "example": "const text = 'HELLO'; const lower = text.toLowerCase();"
+  },
+  {
+    "name": "String.replace",
+    "description": "Remplace une partie d'une chaîne par une autre.",
+    "example": "const text = 'Hello World'; const newText = text.replace('World', 'JS');"
+  },
+  {
+    "name": "String.split",
+    "description": "Divise une chaîne en un tableau en fonction d'un séparateur.",
+    "example": "const text = 'Hello,World'; const parts = text.split(',');"
+  },
+  {
+    "name": "String.trim",
+    "description": "Supprime les espaces au début et à la fin d'une chaîne.",
+    "example": "const text = ' Hello '; const trimmed = text.trim();"
+  },
+  {
+    "name": "JSON.parse",
+    "description": "Convertit une chaîne JSON en objet JavaScript.",
+    "example": "const obj = JSON.parse('{\"name\":\"John\"}');"
+  },
+  {
+    "name": "JSON.stringify",
+    "description": "Convertit un objet JavaScript en chaîne JSON.",
+    "example": "const json = JSON.stringify({ name: 'John' });"
+  },
+  {
+    "name": "fetch",
+    "description": "Effectue une requête réseau et retourne une promesse.",
+    "example": "fetch('https://api.example.com/data').then(res => res.json()).then(data => console.log(data));"
+  },
+  {
+    "name": "localStorage.setItem",
+    "description": "Stocke une valeur dans le localStorage.",
+    "example": "localStorage.setItem('username', 'John');"
+  },
+  {
+    "name": "localStorage.getItem",
+    "description": "Récupère une valeur stockée dans le localStorage.",
+    "example": "const username = localStorage.getItem('username');"
+  },
+  {
+    "name": "localStorage.removeItem",
+    "description": "Supprime une valeur stockée dans le localStorage.",
+    "example": "localStorage.removeItem('username');"
+  },
+  {
+    "name": "localStorage.clear",
+    "description": "Supprime toutes les valeurs stockées dans le localStorage.",
+    "example": "localStorage.clear();"
+  }
+]
